@@ -1,26 +1,62 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: light;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer base {
+  body {
+    @apply bg-sand-100 text-ink-900 font-sans antialiased overflow-x-hidden;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  main {
+    @apply min-h-screen;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .container-page {
+    @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section {
+    @apply py-12 sm:py-16 lg:py-20;
+  }
+
+  .section-heading {
+    @apply text-xs sm:text-sm font-semibold tracking-[0.16em] uppercase text-brand-600;
+  }
+
+  .section-title {
+    @apply text-2xl sm:text-3xl lg:text-4xl font-semibold text-ink-900;
+  }
+
+  .pill {
+    @apply inline-flex items-center rounded-full border border-white/15 bg-white/5 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.18em] text-sand-50;
+  }
+}
+
+@media (max-width: 360px) {
+  .container-page {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .section {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+    line-height: 1.25;
+  }
+
+  .pill {
+    font-size: 0.55rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
 }
