@@ -235,7 +235,7 @@ export function DemoExperience() {
   const [draftMessage, setDraftMessage] = useState("");
   const [localMessages, setLocalMessages] = useState<
     Record<DemoClubId, DemoMessage[] | undefined>
-  >({});
+  >({} as Record<DemoClubId, DemoMessage[] | undefined>);
 
   const selectedClub = useMemo(
     () => demoClubs.find((c) => c.id === selectedClubId)!,
