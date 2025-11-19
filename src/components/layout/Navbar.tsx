@@ -52,17 +52,6 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <Link
-              href="/demo"
-              className={
-                "text-sm font-semibold " +
-                (pathname.startsWith("/demo")
-                  ? "text-brand-700"
-                  : "text-brand-600 hover:text-brand-700")
-              }
-            >
-              Live MVP demo
-            </Link>
           </nav>
 
           <div className="hidden items-center gap-3 md:flex">

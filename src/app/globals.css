@@ -1,62 +1,63 @@
+/* File: src/app/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Prevent horizontal overflow on tiny screens */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 :root {
   color-scheme: light;
 }
 
-@layer base {
-  body {
-    @apply bg-sand-100 text-ink-900 font-sans antialiased overflow-x-hidden;
-  }
-
-  main {
-    @apply min-h-screen;
-  }
+body {
+  @apply bg-sand-100 text-ink-900 font-sans antialiased;
 }
 
-@layer components {
-  .container-page {
-    @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
-  }
-
-  .section {
-    @apply py-12 sm:py-16 lg:py-20;
-  }
-
-  .section-heading {
-    @apply text-xs sm:text-sm font-semibold tracking-[0.16em] uppercase text-brand-600;
-  }
-
-  .section-title {
-    @apply text-2xl sm:text-3xl lg:text-4xl font-semibold text-ink-900;
-  }
-
-  .pill {
-    @apply inline-flex items-center rounded-full border border-white/15 bg-white/5 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.18em] text-sand-50;
-  }
+main {
+  @apply min-h-screen w-full;
 }
 
+/* Layout helpers */
+.container-page {
+  @apply max-w-6xl mx-auto px-3 sm:px-4 lg:px-8;
+}
+
+.section {
+  @apply py-10 sm:py-16 lg:py-20;
+}
+
+.section-heading {
+  @apply text-[11px] sm:text-xs font-semibold tracking-[0.16em] uppercase text-brand-600;
+}
+
+.section-title {
+  /* Slightly smaller on base for 320px, scale up as screen grows */
+  @apply text-xl sm:text-3xl lg:text-4xl font-semibold text-ink-900;
+}
+
+.pill {
+  @apply inline-flex items-center rounded-full border border-white/15 bg-white/5 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.18em] text-sand-50;
+}
+
+/* Extra safety for very small devices (<= 360px) */
 @media (max-width: 360px) {
+  h1 {
+    font-size: 1.6rem; /* slightly under text-3xl */
+    line-height: 1.2;
+  }
+
   .container-page {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
   }
 
   .section {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-
-  .section-title {
-    font-size: 1.75rem;
-    line-height: 1.25;
-  }
-
-  .pill {
-    font-size: 0.55rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
   }
 }

@@ -44,7 +44,7 @@ export default function Page() {
           <div className="pointer-events-none absolute -right-4 -bottom-8 h-24 w-24 rounded-full bg-brand-300/20 blur-3xl" />
 
           <div className="relative flex gap-4 lg:justify-end">
-            <div className="hidden h-[260px] w-[160px] flex-col rounded-3xl bg-gradient-to-b from-sand-50/95 to-sand-100/95 p-4 text-xs text-ink-900 shadow-card sm:flex">
+            <div className="hidden min-h-[260px] w-[160px] flex-col rounded-3xl bg-gradient-to-b from-sand-50/95 to-sand-100/95 p-4 text-xs text-ink-900 shadow-card sm:flex">
               <div className="mb-3 flex items-center justify-between text-[10px]">
                 <span className="font-semibold">Members&apos; chat</span>
                 <span className="rounded-full bg-brand-100 px-2 py-[2px] text-[9px] text-brand-700">
@@ -79,7 +79,7 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="h-[260px] w-[180px] rounded-3xl bg-gradient-to-b from-ink-900 to-ink-900/95 p-4 text-xs text-sand-50 shadow-card">
+            <div className="min-h-[260px] w-[180px] rounded-3xl bg-gradient-to-b from-ink-900 to-ink-900/95 p-4 text-xs text-sand-50 shadow-card">
               <div className="mb-3 flex items-center justify-between text-[10px]">
                 <span className="font-semibold">Back office · Clifton Downs GC</span>
                 <span className="rounded-full bg-brand-500/15 px-2 py-[2px] text-[9px] text-brand-100">
