@@ -1,17 +1,19 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import "./globals.css";
-import { Navbar } from "@/components/layout/Navbar";
-import { Footer } from "@/components/layout/Footer";
-
+import { PwaRegistration } from "@/components/pwa-registration";
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000",
+  ),
   title: {
-    default: "Golfers Clubline · Golf Club Engagement MVP",
-    template: "%s · Golfers Clubline",
+    default: "Clubline — More time for the sport.",
+    template: "%s · Clubline",
   },
   description:
-    "A multi-tenant golf club engagement platform MVP to help UK golf clubs increase member retention.",
+    "Memberships, teams, coaching, bookings and communication for sports clubs worldwide.",
+  manifest: "/manifest.webmanifest",
+  appleWebApp: { capable: true, statusBarStyle: "default", title: "Clubline" },
 };
-
 export default function RootLayout({
   children,
 }: {
@@ -19,14 +21,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-sand-100 text-ink-900" suppressHydrationWarning>
-        <div className="flex min-h-screen flex-col">
-          <Navbar />
-          <main className="flex-1">{children}</main>
-          <Footer />
-        </div>
+      <body>
+        <a className="skip" href="#main">
+          Skip to content
+        </a>
+        {children}
+        <PwaRegistration />
       </body>
     </html>
   );
 }
-

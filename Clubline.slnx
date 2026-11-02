@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/api/">
+    <Project Path="api/Clubline.Api/Clubline.Api.csproj" />
+    <Project Path="api/Clubline.IntegrationTests/Clubline.IntegrationTests.csproj" />
+    <Project Path="api/Clubline.Tests/Clubline.Tests.csproj" />
+  </Folder>
+</Solution>

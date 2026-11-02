@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="fae5cfce-5656-4f26-9c2a-fcd90357ed83" name="@4262aa714934 2026-11-02 14:37:10" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-11-02T14:37:10.2856545+01:00" queuing="2026-11-02T14:37:10.2856546+01:00" start="2026-11-02T14:37:09.4537893+01:00" finish="2026-11-02T14:37:11.1748597+01:00" />
+  <TestSettings name="default" id="5c702781-0007-4622-a8f5-2a5ccdce2359">
+    <Deployment runDeploymentRoot="_4262aa714934_2026-11-02_14_37_10" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="d9431591-3496-4269-a747-0c3b44e9356f" testId="e90da074-b542-9824-9909-93d908bd7011" testName="DomainTests.EmailIsCanonical" computerName="4262aa714934" duration="00:00:00.0001310" startTime="2026-11-02T14:37:11.0820784+01:00" endTime="2026-11-02T14:37:11.0821395+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9431591-3496-4269-a747-0c3b44e9356f" />
+    <UnitTestResult executionId="9694bcae-b657-402b-ab58-fee9631cfe81" testId="53f53562-5995-6756-a0f2-a99f62d506ff" testName="ProviderTests.RetriesPreserveProviderKeyAndMerchantAccount" computerName="4262aa714934" duration="00:00:00.0099651" startTime="2026-11-02T14:37:10.2525181+01:00" endTime="2026-11-02T14:37:10.2525866+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9694bcae-b657-402b-ab58-fee9631cfe81" />
+    <UnitTestResult executionId="4399f54b-4124-457b-bbb4-cfeeee4e819f" testId="c9249702-8acd-8155-5492-4781ef1af5e4" testName="CurrencyBoundaryTests.ProviderAmountsPreserveTheDisplayedCharge(currency: &quot;JPY&quot;, internalMinor: 500, providerMinor: 500)" computerName="4262aa714934" duration="00:00:00.0000020" startTime="2026-11-02T14:37:10.2500324+01:00" endTime="2026-11-02T14:37:10.2500933+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4399f54b-4124-457b-bbb4-cfeeee4e819f" />
+    <UnitTestResult executionId="f956b043-3fa0-4308-9e89-d2186d546111" testId="21189213-b826-d9ef-2adf-d7b18a1b9bc4" testName="DomainTests.InvalidEmailsAreRejected(value: &quot;a b@example.com&quot;)" computerName="4262aa714934" duration="00:00:00.0002846" startTime="2026-11-02T14:37:10.2178921+01:00" endTime="2026-11-02T14:37:10.2187664+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f956b043-3fa0-4308-9e89-d2186d546111" />
+    <UnitTestResult executionId="c39b71dc-eb30-48dd-9d82-87a6913267fd" testId="108eddff-69b7-5478-c2d9-ae787a60d01f" testName="DomainTests.RevokedSessionIsRemovedFromRealtimeRecipients" computerName="4262aa714934" duration="00:00:00.0071628" startTime="2026-11-02T14:37:11.0843755+01:00" endTime="2026-11-02T14:37:11.0892788+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c39b71dc-eb30-48dd-9d82-87a6913267fd" />
+    <UnitTestResult executionId="950adc80-6080-41e9-b6da-e25d63f80571" testId="25ff8f91-bfa9-15ba-be12-29538af71081" testName="CurrencyBoundaryTests.FractionalLegacyProviderAmountRequiresReview" computerName="4262aa714934" duration="00:00:00.0002948" startTime="2026-11-02T14:37:10.2502621+01:00" endTime="2026-11-02T14:37:10.2512380+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="950adc80-6080-41e9-b6da-e25d63f80571" />
+    <UnitTestResult executionId="2706cdf5-4f7b-415a-9f7f-029b038e118c" testId="2c435aa9-acb5-60be-a211-ea808a1d8b19" testName="ProviderTests.ProviderFailureCannotReturnSuccess" computerName="4262aa714934" duration="00:00:00.0184067" startTime="2026-11-02T14:37:10.1895868+01:00" endTime="2026-11-02T14:37:10.2521915+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2706cdf5-4f7b-415a-9f7f-029b038e118c" />
+    <UnitTestResult executionId="9880f295-c7a5-41e8-b572-3bfe346bfe4d" testId="28833093-0f58-81fb-7973-53ff9a68d1ea" testName="SessionRefreshTests.IdentityPrincipalRefreshRetainsOnlyTheOriginalRevocableSession" computerName="4262aa714934" duration="00:00:00.0071340" startTime="2026-11-02T14:37:10.1895229+01:00" endTime="2026-11-02T14:37:10.2029350+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9880f295-c7a5-41e8-b572-3bfe346bfe4d" />
+    <UnitTestResult executionId="3ef71755-2a37-4a6f-9289-8151c0f509d9" testId="ac1ec3c0-c8ec-9f6c-82bb-7813e3e15124" testName="DomainTests.SignatureChecksExactRawBodyAndTime" computerName="4262aa714934" duration="00:00:00.0025661" startTime="2026-11-02T14:37:11.0897270+01:00" endTime="2026-11-02T14:37:11.0922499+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ef71755-2a37-4a6f-9289-8151c0f509d9" />
+    <UnitTestResult executionId="c98a6e55-17bb-45ed-b4bc-d3aadb435763" testId="edc8bbe4-267b-7622-5cfc-7a85986917fe" testName="DomainTests.InvalidEmailsAreRejected(value: &quot;x@&quot;)" computerName="4262aa714934" duration="00:00:00.0000566" startTime="2026-11-02T14:37:10.2189281+01:00" endTime="2026-11-02T14:37:10.2189862+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c98a6e55-17bb-45ed-b4bc-d3aadb435763" />
+    <UnitTestResult executionId="0f47b354-c963-4a65-a3b6-7a21cc889935" testId="a1a5fd4b-f3de-fd3c-27b7-51a14a614cd1" testName="CurrencyBoundaryTests.ProviderAmountsPreserveTheDisplayedCharge(currency: &quot;USD&quot;, internalMinor: 12345, providerMinor: 12345)" computerName="4262aa714934" duration="00:00:00.0002578" startTime="2026-11-02T14:37:10.2195349+01:00" endTime="2026-11-02T14:37:10.2195948+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f47b354-c963-4a65-a3b6-7a21cc889935" />
+    <UnitTestResult executionId="264c848f-7f3a-4026-962a-2c83b2b43bc7" testId="ac595e0d-8b3a-cc46-58ce-7d27e907a096" testName="CurrencyBoundaryTests.ProviderAmountsPreserveTheDisplayedCharge(currency: &quot;ISK&quot;, internalMinor: 500, providerMinor: 50000)" computerName="4262aa714934" duration="00:00:00.0126836" startTime="2026-11-02T14:37:10.1896083+01:00" endTime="2026-11-02T14:37:10.2193781+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="264c848f-7f3a-4026-962a-2c83b2b43bc7" />
+    <UnitTestResult executionId="dd022b7c-a129-453c-9124-5f5d02caa212" testId="c2a207f1-087e-1718-7970-39ccda18030f" testName="DomainTests.RequiredTextLimitsAreEnforced" computerName="4262aa714934" duration="00:00:00.0002813" startTime="2026-11-02T14:37:11.0895275+01:00" endTime="2026-11-02T14:37:11.0895843+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd022b7c-a129-453c-9124-5f5d02caa212" />
+    <UnitTestResult executionId="1bb06033-7f6c-4ec7-8002-abffab7dff72" testId="59c5e077-f28c-bb05-c25d-fce6168c34e8" testName="ProviderTests.MissingProviderConfigurationMakesNoNetworkRequest" computerName="4262aa714934" duration="00:00:00.0030247" startTime="2026-11-02T14:37:10.2527591+01:00" endTime="2026-11-02T14:37:10.2528807+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1bb06033-7f6c-4ec7-8002-abffab7dff72" />
+    <UnitTestResult executionId="63b79224-bf3e-4f6f-9196-5075f2896255" testId="68ab9217-645d-6b43-817b-6f484b4ebe06" testName="DomainTests.RandomInvitationTokensAreDifferent" computerName="4262aa714934" duration="00:00:00.0032611" startTime="2026-11-02T14:37:11.0788928+01:00" endTime="2026-11-02T14:37:11.0818558+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="63b79224-bf3e-4f6f-9196-5075f2896255" />
+    <UnitTestResult executionId="06d5005f-5df7-4b6a-a9a9-200299841a08" testId="25f9bc13-9c16-3871-f6ec-5cb55ff895db" testName="CurrencyBoundaryTests.ProviderAmountsPreserveTheDisplayedCharge(currency: &quot;UGX&quot;, internalMinor: 500, providerMinor: 50000)" computerName="4262aa714934" duration="00:00:00.0000181" startTime="2026-11-02T14:37:10.2495589+01:00" endTime="2026-11-02T14:37:10.2496661+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06d5005f-5df7-4b6a-a9a9-200299841a08" />
+    <UnitTestResult executionId="677079a8-e81f-41d9-8e12-b18ed71dd711" testId="73d3f060-811d-6076-6957-da4026ceb42c" testName="DomainTests.InvalidEmailsAreRejected(value: &quot;&quot;)" computerName="4262aa714934" duration="00:00:00.0000085" startTime="2026-11-02T14:37:10.2190829+01:00" endTime="2026-11-02T14:37:10.2191410+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="677079a8-e81f-41d9-8e12-b18ed71dd711" />
+    <UnitTestResult executionId="d76f5337-854c-4914-bb22-8d362907bfee" testId="238d76c3-c850-4d02-499f-c222f8ed0c32" testName="DomainTests.InvalidEmailsAreRejected(value: &quot;x&quot;)" computerName="4262aa714934" duration="00:00:00.0089773" startTime="2026-11-02T14:37:10.1877978+01:00" endTime="2026-11-02T14:37:10.2081250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d76f5337-854c-4914-bb22-8d362907bfee" />
+    <UnitTestResult executionId="367ff991-2af1-44d2-8730-2f5528c8d4ba" testId="a1ad63ba-9294-24a3-a311-84052cd79c98" testName="DomainTests.EveryClubEntityHasATenantFilterAndCompositeIdentity" computerName="4262aa714934" duration="00:00:00.8735878" startTime="2026-11-02T14:37:10.2193034+01:00" endTime="2026-11-02T14:37:11.0785527+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="367ff991-2af1-44d2-8730-2f5528c8d4ba" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="DomainTests.EveryClubEntityHasATenantFilterAndCompositeIdentity" storage="/workspace/scratch/5ba7f30ab25b/golfers/api/clubline.tests/bin/debug/net10.0/clubline.tests.dll" id="a1ad63ba-9294-24a3-a311-84052cd79c98">
+      <Execution id="367ff991-2af1-44d2-8730-2f5528c8d4ba" />
+      <TestMethod codeBase="/workspace/scratch/5ba7f30ab25b/golfers/api/Clubline.Tests/bin/Debug/net10.0/Clubline.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DomainTests" name="EveryClubEntityHasATenantFilterAndCompositeIdentity" />
+    </UnitTest>
+    <UnitTest name="CurrencyBoundaryTests.ProviderAmountsPreserveTheDisplayedCharge(currency: &quot;JPY&quot;, internalMinor: 500, providerMinor: 500)" storage="/workspace/scratch/5ba7f30ab25b/golfers/api/clubline.tests/bin/debug/net10.0/clubline.tests.dll" id="c9249702-8acd-8155-5492-4781ef1af5e4">
+      <Execution id="4399f54b-4124-457b-bbb4-cfeeee4e819f" />
+      <TestMethod codeBase="/workspace/scratch/5ba7f30ab25b/golfers/api/Clubline.Tests/bin/Debug/net10.0/Clubline.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CurrencyBoundaryTests" name="ProviderAmountsPreserveTheDisplayedCharge" />
+    </UnitTest>
+    <UnitTest name="CurrencyBoundaryTests.ProviderAmountsPreserveTheDisplayedCharge(currency: &quot;UGX&quot;, internalMinor: 500, providerMinor: 50000)" storage="/workspace/scratch/5ba7f30ab25b/golfers/api/clubline.tests/bin/debug/net10.0/clubline.tests.dll" id="25f9bc13-9c16-3871-f6ec-5cb55ff895db">
+      <Execution id="06d5005f-5df7-4b6a-a9a9-200299841a08" />
+      <TestMethod codeBase="/workspace/scratch/5ba7f30ab25b/golfers/api/Clubline.Tests/bin/Debug/net10.0/Clubline.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CurrencyBoundaryTests" name="ProviderAmountsPreserveTheDisplayedCharge" />
+    </UnitTest>
+    <UnitTest name="CurrencyBoundaryTests.ProviderAmountsPreserveTheDisplayedCharge(currency: &quot;ISK&quot;, internalMinor: 500, providerMinor: 50000)" storage="/workspace/scratch/5ba7f30ab25b/golfers/api/clubline.tests/bin/debug/net10.0/clubline.tests.dll" id="ac595e0d-8b3a-cc46-58ce-7d27e907a096">
+      <Execution id="264c848f-7f3a-4026-962a-2c83b2b43bc7" />
+      <TestMethod codeBase="/workspace/scratch/5ba7f30ab25b/golfers/api/Clubline.Tests/bin/Debug/net10.0/Clubline.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CurrencyBoundaryTests" name="ProviderAmountsPreserveTheDisplayedCharge" />
+    </UnitTest>
+    <UnitTest name="DomainTests.InvalidEmailsAreRejected(value: &quot;x&quot;)" storage="/workspace/scratch/5ba7f30ab25b/golfers/api/clubline.tests/bin/debug/net10.0/clubline.tests.dll" id="238d76c3-c850-4d02-499f-c222f8ed0c32">
+      <Execution id="d76f5337-854c-4914-bb22-8d362907bfee" />
+      <TestMethod codeBase="/workspace/scratch/5ba7f30ab25b/golfers/api/Clubline.Tests/bin/Debug/net10.0/Clubline.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DomainTests" name="InvalidEmailsAreRejected" />
+    </UnitTest>
+    <UnitTest name="DomainTests.RandomInvitationTokensAreDifferent" storage="/workspace/scratch/5ba7f30ab25b/golfers/api/clubline.tests/bin/debug/net10.0/clubline.tests.dll" id="68ab9217-645d-6b43-817b-6f484b4ebe06">
+      <Execution id="63b79224-bf3e-4f6f-9196-5075f2896255" />
+      <TestMethod codeBase="/workspace/scratch/5ba7f30ab25b/golfers/api/Clubline.Tests/bin/Debug/net10.0/Clubline.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DomainTests" name="RandomInvitationTokensAreDifferent" />
+    </UnitTest>
+    <UnitTest name="SessionRefreshTests.IdentityPrincipalRefreshRetainsOnlyTheOriginalRevocableSession" storage="/workspace/scratch/5ba7f30ab25b/golfers/api/clubline.tests/bin/debug/net10.0/clubline.tests.dll" id="28833093-0f58-81fb-7973-53ff9a68d1ea">
+      <Execution id="9880f295-c7a5-41e8-b572-3bfe346bfe4d" />
+      <TestMethod codeBase="/workspace/scratch/5ba7f30ab25b/golfers/api/Clubline.Tests/bin/Debug/net10.0/Clubline.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="SessionRefreshTests" name="IdentityPrincipalRefreshRetainsOnlyTheOriginalRevocableSession" />
+    </UnitTest>
+    <UnitTest name="ProviderTests.ProviderFailureCannotReturnSuccess" storage="/workspace/scratch/5ba7f30ab25b/golfers/api/clubline.tests/bin/debug/net10.0/clubline.tests.dll" id="2c435aa9-acb5-60be-a211-ea808a1d8b19">
+      <Execution id="2706cdf5-4f7b-415a-9f7f-029b038e118c" />
+      <TestMethod codeBase="/workspace/scratch/5ba7f30ab25b/golfers/api/Clubline.Tests/bin/Debug/net10.0/Clubline.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ProviderTests" name="ProviderFailureCannotReturnSuccess" />
+    </UnitTest>
+    <UnitTest name="ProviderTests.RetriesPreserveProviderKeyAndMerchantAccount" storage="/workspace/scratch/5ba7f30ab25b/golfers/api/clubline.tests/bin/debug/net10.0/clubline.tests.dll" id="53f53562-5995-6756-a0f2-a99f62d506ff">
+      <Execution id="9694bcae-b657-402b-ab58-fee9631cfe81" />
+      <TestMethod codeBase="/workspace/scratch/5ba7f30ab25b/golfers/api/Clubline.Tests/bin/Debug/net10.0/Clubline.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ProviderTests" name="RetriesPreserveProviderKeyAndMerchantAccount" />
+    </UnitTest>
+    <UnitTest name="CurrencyBoundaryTests.ProviderAmountsPreserveTheDisplayedCharge(currency: &quot;USD&quot;, internalMinor: 12345, providerMinor: 12345)" storage="/workspace/scratch/5ba7f30ab25b/golfers/api/clubline.tests/bin/debug/net10.0/clubline.tests.dll" id="a1a5fd4b-f3de-fd3c-27b7-51a14a614cd1">
+      <Execution id="0f47b354-c963-4a65-a3b6-7a21cc889935" />
+      <TestMethod codeBase="/workspace/scratch/5ba7f30ab25b/golfers/api/Clubline.Tests/bin/Debug/net10.0/Clubline.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CurrencyBoundaryTests" name="ProviderAmountsPreserveTheDisplayedCharge" />
+    </UnitTest>
+    <UnitTest name="CurrencyBoundaryTests.FractionalLegacyProviderAmountRequiresReview" storage="/workspace/scratch/5ba7f30ab25b/golfers/api/clubline.tests/bin/debug/net10.0/clubline.tests.dll" id="25ff8f91-bfa9-15ba-be12-29538af71081">
+      <Execution id="950adc80-6080-41e9-b6da-e25d63f80571" />
+      <TestMethod codeBase="/workspace/scratch/5ba7f30ab25b/golfers/api/Clubline.Tests/bin/Debug/net10.0/Clubline.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CurrencyBoundaryTests" name="FractionalLegacyProviderAmountRequiresReview" />
+    </UnitTest>
+    <UnitTest name="DomainTests.RevokedSessionIsRemovedFromRealtimeRecipients" storage="/workspace/scratch/5ba7f30ab25b/golfers/api/clubline.tests/bin/debug/net10.0/clubline.tests.dll" id="108eddff-69b7-5478-c2d9-ae787a60d01f">
+      <Execution id="c39b71dc-eb30-48dd-9d82-87a6913267fd" />
+      <TestMethod codeBase="/workspace/scratch/5ba7f30ab25b/golfers/api/Clubline.Tests/bin/Debug/net10.0/Clubline.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DomainTests" name="RevokedSessionIsRemovedFromRealtimeRecipients" />
+    </UnitTest>
+    <UnitTest name="DomainTests.InvalidEmailsAreRejected(value: &quot;&quot;)" storage="/workspace/scratch/5ba7f30ab25b/golfers/api/clubline.tests/bin/debug/net10.0/clubline.tests.dll" id="73d3f060-811d-6076-6957-da4026ceb42c">
+      <Execution id="677079a8-e81f-41d9-8e12-b18ed71dd711" />
+      <TestMethod codeBase="/workspace/scratch/5ba7f30ab25b/golfers/api/Clubline.Tests/bin/Debug/net10.0/Clubline.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DomainTests" name="InvalidEmailsAreRejected" />
+    </UnitTest>
+    <UnitTest name="DomainTests.InvalidEmailsAreRejected(value: &quot;x@&quot;)" storage="/workspace/scratch/5ba7f30ab25b/golfers/api/clubline.tests/bin/debug/net10.0/clubline.tests.dll" id="edc8bbe4-267b-7622-5cfc-7a85986917fe">
+      <Execution id="c98a6e55-17bb-45ed-b4bc-d3aadb435763" />
+      <TestMethod codeBase="/workspace/scratch/5ba7f30ab25b/golfers/api/Clubline.Tests/bin/Debug/net10.0/Clubline.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DomainTests" name="InvalidEmailsAreRejected" />
+    </UnitTest>
+    <UnitTest name="DomainTests.SignatureChecksExactRawBodyAndTime" storage="/workspace/scratch/5ba7f30ab25b/golfers/api/clubline.tests/bin/debug/net10.0/clubline.tests.dll" id="ac1ec3c0-c8ec-9f6c-82bb-7813e3e15124">
+      <Execution id="3ef71755-2a37-4a6f-9289-8151c0f509d9" />
+      <TestMethod codeBase="/workspace/scratch/5ba7f30ab25b/golfers/api/Clubline.Tests/bin/Debug/net10.0/Clubline.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DomainTests" name="SignatureChecksExactRawBodyAndTime" />
+    </UnitTest>
+    <UnitTest name="DomainTests.RequiredTextLimitsAreEnforced" storage="/workspace/scratch/5ba7f30ab25b/golfers/api/clubline.tests/bin/debug/net10.0/clubline.tests.dll" id="c2a207f1-087e-1718-7970-39ccda18030f">
+      <Execution id="dd022b7c-a129-453c-9124-5f5d02caa212" />
+      <TestMethod codeBase="/workspace/scratch/5ba7f30ab25b/golfers/api/Clubline.Tests/bin/Debug/net10.0/Clubline.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DomainTests" name="RequiredTextLimitsAreEnforced" />
+    </UnitTest>
+    <UnitTest name="DomainTests.InvalidEmailsAreRejected(value: &quot;a b@example.com&quot;)" storage="/workspace/scratch/5ba7f30ab25b/golfers/api/clubline.tests/bin/debug/net10.0/clubline.tests.dll" id="21189213-b826-d9ef-2adf-d7b18a1b9bc4">
+      <Execution id="f956b043-3fa0-4308-9e89-d2186d546111" />
+      <TestMethod codeBase="/workspace/scratch/5ba7f30ab25b/golfers/api/Clubline.Tests/bin/Debug/net10.0/Clubline.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DomainTests" name="InvalidEmailsAreRejected" />
+    </UnitTest>
+    <UnitTest name="ProviderTests.MissingProviderConfigurationMakesNoNetworkRequest" storage="/workspace/scratch/5ba7f30ab25b/golfers/api/clubline.tests/bin/debug/net10.0/clubline.tests.dll" id="59c5e077-f28c-bb05-c25d-fce6168c34e8">
+      <Execution id="1bb06033-7f6c-4ec7-8002-abffab7dff72" />
+      <TestMethod codeBase="/workspace/scratch/5ba7f30ab25b/golfers/api/Clubline.Tests/bin/Debug/net10.0/Clubline.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ProviderTests" name="MissingProviderConfigurationMakesNoNetworkRequest" />
+    </UnitTest>
+    <UnitTest name="DomainTests.EmailIsCanonical" storage="/workspace/scratch/5ba7f30ab25b/golfers/api/clubline.tests/bin/debug/net10.0/clubline.tests.dll" id="e90da074-b542-9824-9909-93d908bd7011">
+      <Execution id="d9431591-3496-4269-a747-0c3b44e9356f" />
+      <TestMethod codeBase="/workspace/scratch/5ba7f30ab25b/golfers/api/Clubline.Tests/bin/Debug/net10.0/Clubline.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DomainTests" name="EmailIsCanonical" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="e90da074-b542-9824-9909-93d908bd7011" executionId="d9431591-3496-4269-a747-0c3b44e9356f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="53f53562-5995-6756-a0f2-a99f62d506ff" executionId="9694bcae-b657-402b-ab58-fee9631cfe81" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9249702-8acd-8155-5492-4781ef1af5e4" executionId="4399f54b-4124-457b-bbb4-cfeeee4e819f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="21189213-b826-d9ef-2adf-d7b18a1b9bc4" executionId="f956b043-3fa0-4308-9e89-d2186d546111" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="108eddff-69b7-5478-c2d9-ae787a60d01f" executionId="c39b71dc-eb30-48dd-9d82-87a6913267fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25ff8f91-bfa9-15ba-be12-29538af71081" executionId="950adc80-6080-41e9-b6da-e25d63f80571" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c435aa9-acb5-60be-a211-ea808a1d8b19" executionId="2706cdf5-4f7b-415a-9f7f-029b038e118c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="28833093-0f58-81fb-7973-53ff9a68d1ea" executionId="9880f295-c7a5-41e8-b572-3bfe346bfe4d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ac1ec3c0-c8ec-9f6c-82bb-7813e3e15124" executionId="3ef71755-2a37-4a6f-9289-8151c0f509d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="edc8bbe4-267b-7622-5cfc-7a85986917fe" executionId="c98a6e55-17bb-45ed-b4bc-d3aadb435763" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1a5fd4b-f3de-fd3c-27b7-51a14a614cd1" executionId="0f47b354-c963-4a65-a3b6-7a21cc889935" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ac595e0d-8b3a-cc46-58ce-7d27e907a096" executionId="264c848f-7f3a-4026-962a-2c83b2b43bc7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2a207f1-087e-1718-7970-39ccda18030f" executionId="dd022b7c-a129-453c-9124-5f5d02caa212" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59c5e077-f28c-bb05-c25d-fce6168c34e8" executionId="1bb06033-7f6c-4ec7-8002-abffab7dff72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="68ab9217-645d-6b43-817b-6f484b4ebe06" executionId="63b79224-bf3e-4f6f-9196-5075f2896255" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25f9bc13-9c16-3871-f6ec-5cb55ff895db" executionId="06d5005f-5df7-4b6a-a9a9-200299841a08" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73d3f060-811d-6076-6957-da4026ceb42c" executionId="677079a8-e81f-41d9-8e12-b18ed71dd711" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="238d76c3-c850-4d02-499f-c222f8ed0c32" executionId="d76f5337-854c-4914-bb22-8d362907bfee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1ad63ba-9294-24a3-a311-84052cd79c98" executionId="367ff991-2af1-44d2-8730-2f5528c8d4ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="19" executed="19" passed="19" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.5+1b188a7b0a (64-bit .NET 10.0.14)
+[xUnit.net 00:00:00.11]   Discovering: Clubline.Tests
+[xUnit.net 00:00:00.17]   Discovered:  Clubline.Tests
+[xUnit.net 00:00:00.20]   Starting:    Clubline.Tests
+[xUnit.net 00:00:01.14]   Finished:    Clubline.Tests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

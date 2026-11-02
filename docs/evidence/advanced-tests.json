@@ -1,0 +1,29 @@
+{
+  "at": "2026-11-02T13:46:01.916Z",
+  "checks": [
+    {
+      "name": "Membership fee assignment, verified payment and renewal are retry-safe",
+      "status": "passed"
+    },
+    {
+      "name": "Reminder automation creates one persistent notification across worker retries",
+      "status": "passed"
+    },
+    {
+      "name": "Email opt-out prevents notification email jobs",
+      "status": "passed"
+    },
+    {
+      "name": "Sign-up, email confirmation, club creation, invitation acceptance and welcome persist",
+      "status": "passed"
+    },
+    {
+      "name": "Support responses and public CMS writes are stored and audited",
+      "status": "passed"
+    },
+    {
+      "name": "Expired reservations release capacity before late payments are reviewed",
+      "status": "passed"
+    }
+  ]
+}

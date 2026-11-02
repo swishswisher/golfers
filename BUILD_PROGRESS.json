@@ -1,0 +1,31 @@
+{
+  "branch": "build/clubline-complete-20261102",
+  "baseCommit": "706d7a354c701191295d6233dd0c6b24014d9297",
+  "phase": "verified release candidate",
+  "product": "Clubline — worldwide sports clubs",
+  "backend": "Implemented: .NET 10, Identity, PostgreSQL/EF Core, SignalR, eight migrations, durable outbox, payment/refund/subscription operations and platform administration",
+  "frontend": "Implemented: public website, responsive member and role-specific staff workspaces, onboarding, billing, administration and PWA recovery",
+  "verification": {
+    "unitTests": 19,
+    "providerIntegrationScenarios": 3,
+    "apiAndContractChecks": 32,
+    "fullBrowserChecks": 79,
+    "focusedBrowserChecks": 14,
+    "restartPersistence": "passed",
+    "nextProductionBuild": "passed",
+    "dotnetReleasePublish": "passed",
+    "eslint": "passed",
+    "dependencyAdvisorySnapshot": "no known vulnerabilities reported"
+  },
+  "evidence": "docs/verification.md",
+  "githubActions": "No workflows added or executed; source and workflow history rechecked before publishing the isolated branch",
+  "production": "unchanged",
+  "launchDependencies": [
+    "Persistent container/.NET host, durable API storage and DNS/TLS",
+    "Stripe platform/Connect credentials, merchant approval, final prices/tax settings and live-provider sandbox acceptance",
+    "Verified email sender/API key, VAPID keys and real-device delivery acceptance",
+    "Off-host encrypted backups, restore drill, monitoring and operational ownership",
+    "Final operating entity, brand/domain, terms/privacy and regional policies",
+    "Optional AI credentials/model evaluation if enabled"
+  ]
+}

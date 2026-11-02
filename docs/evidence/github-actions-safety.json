@@ -1,0 +1,11 @@
+{
+  "at": "2026-11-02T13:48:11.832Z",
+  "repository": "swishswisher/golfers",
+  "ownerType": "User",
+  "defaultBranch": "master",
+  "baseCommit": "706d7a354c701191295d6233dd0c6b24014d9297",
+  "workflowFiles": [],
+  "workflowRunCount": 0,
+  "branch": "build/clubline-complete-20261102",
+  "automaticVercelGitDeployment": false
+}

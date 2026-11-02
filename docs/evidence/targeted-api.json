@@ -1,0 +1,25 @@
+{
+  "at": "2026-11-02T13:42:28.019Z",
+  "checks": [
+    {
+      "name": "Cancelling two junior registrations notifies their shared guardian once",
+      "status": "passed"
+    },
+    {
+      "name": "Database composite foreign keys reject cross-club payment links",
+      "status": "passed"
+    },
+    {
+      "name": "Database exclusion constraint rejects overlapping bookings independently of the API",
+      "status": "passed"
+    },
+    {
+      "name": "Re-registration binds receipts to a new attempt and rejects an earlier callback",
+      "status": "passed"
+    },
+    {
+      "name": "Active-member allowances apply atomically to activation and archived imports",
+      "status": "passed"
+    }
+  ]
+}

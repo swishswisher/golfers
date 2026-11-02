@@ -1,0 +1,87 @@
+{
+  "run": "1793626775501",
+  "at": "2026-11-02T13:41:20.278Z",
+  "database": "PostgreSQL 17, real transactions",
+  "checks": [
+    {
+      "name": "Readiness and explicit API schema",
+      "status": "passed",
+      "ms": 1178
+    },
+    {
+      "name": "Anonymous and CSRF protection",
+      "status": "passed",
+      "ms": 19
+    },
+    {
+      "name": "Cross-club isolation on HTTP and administration",
+      "status": "passed",
+      "ms": 1570
+    },
+    {
+      "name": "Staff roles cannot perform manager or finance operations",
+      "status": "passed",
+      "ms": 4415
+    },
+    {
+      "name": "Publish persists notifications and registration capacity is concurrent-safe",
+      "status": "passed",
+      "ms": 20566
+    },
+    {
+      "name": "Attendance updates and waitlist promotion persist",
+      "status": "passed",
+      "ms": 4723
+    },
+    {
+      "name": "Guardian cannot register an ineligible linked child",
+      "status": "passed",
+      "ms": 6272
+    },
+    {
+      "name": "Resource conflicts are serialized across requests",
+      "status": "passed",
+      "ms": 2395
+    },
+    {
+      "name": "Unauthorized conversation and SignalR access are rejected",
+      "status": "passed",
+      "ms": 2266
+    },
+    {
+      "name": "Persistent messaging across separate realtime sessions and duplicate sends",
+      "status": "passed",
+      "ms": 9685
+    },
+    {
+      "name": "Logout revokes both HTTP session and realtime connection",
+      "status": "passed",
+      "ms": 1963
+    },
+    {
+      "name": "Private files enforce ownership and club authorization",
+      "status": "passed",
+      "ms": 2057
+    },
+    {
+      "name": "Offline payments and refunds use retry-safe operation keys",
+      "status": "passed",
+      "ms": 16327
+    },
+    {
+      "name": "Signed duplicate provider events are stored once; tampering is rejected",
+      "status": "passed",
+      "ms": 9555
+    },
+    {
+      "name": "Disabled providers return explicit configuration errors",
+      "status": "passed",
+      "ms": 1192
+    },
+    {
+      "name": "Logout and relogin retain saved messages and registrations",
+      "status": "passed",
+      "ms": 3456
+    }
+  ]
+}

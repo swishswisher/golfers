@@ -1,0 +1,9 @@
+{
+  "at": "2026-11-02T13:47:32.267Z",
+  "scenario": "Authenticated bounded activity list, real PostgreSQL over local TLS-WebSocket proxy",
+  "requests": 12,
+  "medianMs": 846,
+  "p95Ms": 889,
+  "limit": 100,
+  "scaleClaim": "Smoke measurement only; not an internet-scale load test"
+}
