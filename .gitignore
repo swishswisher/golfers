@@ -40,3 +40,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Clubline server and local secrets
+.local/
+.env*
+!.env.example
+**/bin/
+**/obj/
+TestResults/
+playwright-report/
+test-results/
+*.user
+
+# Python helper caches
+**/__pycache__/

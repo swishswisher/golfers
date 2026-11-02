@@ -1,0 +1,8 @@
+  Clubline.Api -> <repository>/api/Clubline.Api/bin/Debug/net10.0/Clubline.Api.dll
+  Clubline.Tests -> <repository>/api/Clubline.Tests/bin/Debug/net10.0/Clubline.Tests.dll
+Test run for <repository>/api/Clubline.Tests/bin/Debug/net10.0/Clubline.Tests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+WARNING: Overwriting results file: <repository>/api/Clubline.Tests/TestResults/unit.trx
+Results File: <repository>/api/Clubline.Tests/TestResults/unit.trx
+
+Passed!  - Failed:     0, Passed:    19, Skipped:     0, Total:    19, Duration: 904 ms - Clubline.Tests.dll (net10.0)

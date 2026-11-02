@@ -1,0 +1,9 @@
+.git
+.local
+.env*
+node_modules
+.next
+api/**/bin
+api/**/obj
+api/**/TestResults
+docs/evidence/screenshots

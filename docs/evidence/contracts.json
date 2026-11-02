@@ -1,0 +1,25 @@
+{
+  "at": "2026-11-02T13:46:08.502Z",
+  "checks": [
+    {
+      "name": "Session and club contract",
+      "status": "passed"
+    },
+    {
+      "name": "Activity list and member detail contract",
+      "status": "passed"
+    },
+    {
+      "name": "Cursor message history contract",
+      "status": "passed"
+    },
+    {
+      "name": "Subscription and invoice contract",
+      "status": "passed"
+    },
+    {
+      "name": "Problem Details permission contract",
+      "status": "passed"
+    }
+  ]
+}

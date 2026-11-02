@@ -1,0 +1,553 @@
+{
+  "at": "2026-11-02T11:13:24.570Z",
+  "checks": [
+    {
+      "label": "Public /",
+      "path": "/",
+      "width": 1440,
+      "ms": 892,
+      "status": "passed"
+    },
+    {
+      "label": "Public /platform",
+      "path": "/platform",
+      "width": 1440,
+      "ms": 569,
+      "status": "passed"
+    },
+    {
+      "label": "Public /sports",
+      "path": "/sports",
+      "width": 1440,
+      "ms": 612,
+      "status": "passed"
+    },
+    {
+      "label": "Public /solutions",
+      "path": "/solutions",
+      "width": 1440,
+      "ms": 667,
+      "status": "passed"
+    },
+    {
+      "label": "Public /pricing",
+      "path": "/pricing",
+      "width": 1440,
+      "ms": 667,
+      "status": "passed"
+    },
+    {
+      "label": "Public /experience",
+      "path": "/experience",
+      "width": 1440,
+      "ms": 691,
+      "status": "passed"
+    },
+    {
+      "label": "Public /about",
+      "path": "/about",
+      "width": 1440,
+      "ms": 547,
+      "status": "passed"
+    },
+    {
+      "label": "Public /trust",
+      "path": "/trust",
+      "width": 1440,
+      "ms": 547,
+      "status": "passed"
+    },
+    {
+      "label": "Public /contact",
+      "path": "/contact",
+      "width": 1440,
+      "ms": 589,
+      "status": "passed"
+    },
+    {
+      "label": "Public /demo",
+      "path": "/demo",
+      "width": 1440,
+      "ms": 741,
+      "status": "passed"
+    },
+    {
+      "label": "Public /resources",
+      "path": "/resources",
+      "width": 1440,
+      "ms": 1001,
+      "status": "passed"
+    },
+    {
+      "label": "Public /login",
+      "path": "/login",
+      "width": 1440,
+      "ms": 683,
+      "status": "passed"
+    },
+    {
+      "label": "Public /signup",
+      "path": "/signup",
+      "width": 1440,
+      "ms": 517,
+      "status": "passed"
+    },
+    {
+      "label": "Public /",
+      "path": "/",
+      "width": 390,
+      "ms": 663,
+      "status": "passed"
+    },
+    {
+      "label": "Public /platform",
+      "path": "/platform",
+      "width": 390,
+      "ms": 552,
+      "status": "passed"
+    },
+    {
+      "label": "Public /sports",
+      "path": "/sports",
+      "width": 390,
+      "ms": 563,
+      "status": "passed"
+    },
+    {
+      "label": "Public /solutions",
+      "path": "/solutions",
+      "width": 390,
+      "ms": 527,
+      "status": "passed"
+    },
+    {
+      "label": "Public /pricing",
+      "path": "/pricing",
+      "width": 390,
+      "ms": 506,
+      "status": "passed"
+    },
+    {
+      "label": "Public /experience",
+      "path": "/experience",
+      "width": 390,
+      "ms": 539,
+      "status": "passed"
+    },
+    {
+      "label": "Public /about",
+      "path": "/about",
+      "width": 390,
+      "ms": 514,
+      "status": "passed"
+    },
+    {
+      "label": "Public /trust",
+      "path": "/trust",
+      "width": 390,
+      "ms": 513,
+      "status": "passed"
+    },
+    {
+      "label": "Public /contact",
+      "path": "/contact",
+      "width": 390,
+      "ms": 605,
+      "status": "passed"
+    },
+    {
+      "label": "Public /demo",
+      "path": "/demo",
+      "width": 390,
+      "ms": 493,
+      "status": "passed"
+    },
+    {
+      "label": "Public /resources",
+      "path": "/resources",
+      "width": 390,
+      "ms": 661,
+      "status": "passed"
+    },
+    {
+      "label": "Public /login",
+      "path": "/login",
+      "width": 390,
+      "ms": 713,
+      "status": "passed"
+    },
+    {
+      "label": "Public /signup",
+      "path": "/signup",
+      "width": 390,
+      "ms": 497,
+      "status": "passed"
+    },
+    {
+      "label": "Manager overview",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0",
+      "width": 1440,
+      "ms": 2784,
+      "status": "passed"
+    },
+    {
+      "label": "Manager /members",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/members",
+      "width": 1440,
+      "ms": 2135,
+      "status": "passed"
+    },
+    {
+      "label": "Manager /activities",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/activities",
+      "width": 1440,
+      "ms": 1357,
+      "status": "passed"
+    },
+    {
+      "label": "Manager /activities/new",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/activities/new",
+      "width": 1440,
+      "ms": 1721,
+      "status": "passed"
+    },
+    {
+      "label": "Manager /teams",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/teams",
+      "width": 1440,
+      "ms": 2412,
+      "status": "passed"
+    },
+    {
+      "label": "Manager /bookings",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/bookings",
+      "width": 1440,
+      "ms": 1650,
+      "status": "passed"
+    },
+    {
+      "label": "Manager /messages",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/messages",
+      "width": 1440,
+      "ms": 1660,
+      "status": "passed"
+    },
+    {
+      "label": "Manager /payments",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/payments",
+      "width": 1440,
+      "ms": 2825,
+      "status": "passed"
+    },
+    {
+      "label": "Manager /refunds",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/refunds",
+      "width": 1440,
+      "ms": 1700,
+      "status": "passed"
+    },
+    {
+      "label": "Manager /reports",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/reports",
+      "width": 1440,
+      "ms": 1671,
+      "status": "passed"
+    },
+    {
+      "label": "Manager /website",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/website",
+      "width": 1440,
+      "ms": 1245,
+      "status": "passed"
+    },
+    {
+      "label": "Manager /automations",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/automations",
+      "width": 1440,
+      "ms": 1789,
+      "status": "passed"
+    },
+    {
+      "label": "Manager /settings",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/settings",
+      "width": 1440,
+      "ms": 1695,
+      "status": "passed"
+    },
+    {
+      "label": "Manager /billing",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/billing",
+      "width": 1440,
+      "ms": 1369,
+      "status": "passed"
+    },
+    {
+      "label": "Manager /delivery",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/delivery",
+      "width": 1440,
+      "ms": 1299,
+      "status": "passed"
+    },
+    {
+      "label": "Manager /support",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/support",
+      "width": 1440,
+      "ms": 1018,
+      "status": "passed"
+    },
+    {
+      "label": "Manager /preferences",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/preferences",
+      "width": 1440,
+      "ms": 1897,
+      "status": "passed"
+    },
+    {
+      "label": "Manager /enquiries",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/enquiries",
+      "width": 1440,
+      "ms": 1290,
+      "status": "passed"
+    },
+    {
+      "label": "Manager /audit",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/audit",
+      "width": 1440,
+      "ms": 1337,
+      "status": "passed"
+    },
+    {
+      "label": "Mobile manager ",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0",
+      "width": 390,
+      "ms": 2684,
+      "status": "passed"
+    },
+    {
+      "label": "Mobile manager /members",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/members",
+      "width": 390,
+      "ms": 2104,
+      "status": "passed"
+    },
+    {
+      "label": "Mobile manager /activities",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/activities",
+      "width": 390,
+      "ms": 1756,
+      "status": "passed"
+    },
+    {
+      "label": "Mobile manager /messages",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/messages",
+      "width": 390,
+      "ms": 1965,
+      "status": "passed"
+    },
+    {
+      "label": "Mobile manager /payments",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/payments",
+      "width": 390,
+      "ms": 2892,
+      "status": "passed"
+    },
+    {
+      "label": "Mobile manager /settings",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/settings",
+      "width": 390,
+      "ms": 2130,
+      "status": "passed"
+    },
+    {
+      "label": "Mobile manager /billing",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/billing",
+      "width": 390,
+      "ms": 1574,
+      "status": "passed"
+    },
+    {
+      "label": "Mobile manager /preferences",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/preferences",
+      "width": 390,
+      "ms": 2138,
+      "status": "passed"
+    },
+    {
+      "label": "Form-driven publish and member registration",
+      "status": "passed"
+    },
+    {
+      "label": "Member /feed",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/feed",
+      "width": 1440,
+      "ms": 2108,
+      "status": "passed"
+    },
+    {
+      "label": "Member /activities",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/activities",
+      "width": 1440,
+      "ms": 1752,
+      "status": "passed"
+    },
+    {
+      "label": "Member /messages",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/messages",
+      "width": 1440,
+      "ms": 2131,
+      "status": "passed"
+    },
+    {
+      "label": "Member /notifications",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/notifications",
+      "width": 1440,
+      "ms": 1683,
+      "status": "passed"
+    },
+    {
+      "label": "Member /membership",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/membership",
+      "width": 1440,
+      "ms": 2248,
+      "status": "passed"
+    },
+    {
+      "label": "Member /directory",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/directory",
+      "width": 1440,
+      "ms": 1788,
+      "status": "passed"
+    },
+    {
+      "label": "Member /preferences",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/preferences",
+      "width": 1440,
+      "ms": 2176,
+      "status": "passed"
+    },
+    {
+      "label": "Form-driven attendance counts update",
+      "status": "passed"
+    },
+    {
+      "label": "coach /teams",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/teams",
+      "width": 1440,
+      "ms": 2124,
+      "status": "passed"
+    },
+    {
+      "label": "coach /activities",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/activities",
+      "width": 1440,
+      "ms": 1768,
+      "status": "passed"
+    },
+    {
+      "label": "coach /attendance",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/attendance",
+      "width": 1440,
+      "ms": 1738,
+      "status": "passed"
+    },
+    {
+      "label": "treasurer /payments",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/payments",
+      "width": 1440,
+      "ms": 2997,
+      "status": "passed"
+    },
+    {
+      "label": "treasurer /refunds",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/refunds",
+      "width": 1440,
+      "ms": 1980,
+      "status": "passed"
+    },
+    {
+      "label": "treasurer /reports",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/reports",
+      "width": 1440,
+      "ms": 1870,
+      "status": "passed"
+    },
+    {
+      "label": "caterer /catering",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/catering",
+      "width": 1440,
+      "ms": 1569,
+      "status": "passed"
+    },
+    {
+      "label": "caterer /activities",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/activities",
+      "width": 1440,
+      "ms": 1788,
+      "status": "passed"
+    },
+    {
+      "label": "guardian /family",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/family",
+      "width": 1440,
+      "ms": 1526,
+      "status": "passed"
+    },
+    {
+      "label": "guardian /activities",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/activities",
+      "width": 1440,
+      "ms": 1841,
+      "status": "passed"
+    },
+    {
+      "label": "guardian /preferences",
+      "path": "/app/3ba0d240-5494-422e-a3e3-6c430afaaea0/preferences",
+      "width": 1440,
+      "ms": 2144,
+      "status": "passed"
+    },
+    {
+      "label": "Platform ",
+      "path": "/admin",
+      "width": 1440,
+      "ms": 11282,
+      "status": "passed"
+    },
+    {
+      "label": "Platform /clubs",
+      "path": "/admin/clubs",
+      "width": 1440,
+      "ms": 1045,
+      "status": "passed"
+    },
+    {
+      "label": "Platform /support",
+      "path": "/admin/support",
+      "width": 1440,
+      "ms": 998,
+      "status": "passed"
+    },
+    {
+      "label": "Platform /enquiries",
+      "path": "/admin/enquiries",
+      "width": 1440,
+      "ms": 983,
+      "status": "passed"
+    },
+    {
+      "label": "Platform /content",
+      "path": "/admin/content",
+      "width": 1440,
+      "ms": 994,
+      "status": "passed"
+    },
+    {
+      "label": "Platform /audit",
+      "path": "/admin/audit",
+      "width": 1440,
+      "ms": 1201,
+      "status": "passed"
+    }
+  ],
+  "pageErrors": []
+}

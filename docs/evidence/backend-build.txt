@@ -1,0 +1,2 @@
+  Clubline.Api -> <repository>/api/Clubline.Api/bin/Release/net10.0/Clubline.Api.dll
+  Clubline.Api -> <repository>/api/Clubline.Api/bin/Release/net10.0/publish/

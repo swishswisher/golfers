@@ -1,0 +1,42 @@
+{
+  "at": "2026-11-02T13:39:35.419Z",
+  "environment": "Development API, real isolated demonstration clubs in PostgreSQL, production Next.js preview",
+  "suites": [
+    {
+      "suite": "api",
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 104.9
+    },
+    {
+      "suite": "targeted-api",
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 67.7
+    },
+    {
+      "suite": "advanced",
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 213.9
+    },
+    {
+      "suite": "contracts",
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 6.6
+    },
+    {
+      "suite": "browser-regression",
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 72.7
+    },
+    {
+      "suite": "performance",
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 11.1
+    }
+  ]
+}

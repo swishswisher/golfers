@@ -1,0 +1,10 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Clubline.Api -> <repository>/api/Clubline.Api/bin/Debug/net10.0/Clubline.Api.dll
+  Clubline.IntegrationTests -> <repository>/api/Clubline.IntegrationTests/bin/Debug/net10.0/Clubline.IntegrationTests.dll
+Test run for <repository>/api/Clubline.IntegrationTests/bin/Debug/net10.0/Clubline.IntegrationTests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+WARNING: Overwriting results file: <repository>/api/Clubline.IntegrationTests/TestResults/integration.trx
+Results File: <repository>/api/Clubline.IntegrationTests/TestResults/integration.trx
+
+Passed!  - Failed:     0, Passed:     3, Skipped:     0, Total:     3, Duration: 58 s - Clubline.IntegrationTests.dll (net10.0)

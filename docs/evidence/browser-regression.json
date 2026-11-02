@@ -1,0 +1,61 @@
+{
+  "at": "2026-11-02T13:47:21.115Z",
+  "checks": [
+    {
+      "name": "Pro Shop workspace navigation",
+      "status": "passed"
+    },
+    {
+      "name": "Draft editing preserves activity identity and changes",
+      "status": "passed"
+    },
+    {
+      "name": "Pro Shop publishing returns an authorised member preview",
+      "status": "passed"
+    },
+    {
+      "name": "Server-provided activity management permission",
+      "status": "passed"
+    },
+    {
+      "name": "Staff activity cancellation persists",
+      "status": "passed"
+    },
+    {
+      "name": "Restricted role sees a permission state",
+      "status": "passed"
+    },
+    {
+      "name": "Offline recovery and no authenticated data caching",
+      "status": "passed"
+    },
+    {
+      "name": "Mobile preference accessibility",
+      "status": "passed"
+    },
+    {
+      "name": "Two browser sessions exchange persistent messages through the frontend proxy",
+      "status": "passed"
+    },
+    {
+      "name": "Browser messaging recovers saved history after reconnect",
+      "status": "passed"
+    },
+    {
+      "name": "Public club trial enquiry is recorded",
+      "status": "passed"
+    },
+    {
+      "name": "Staff enquiry follow-up persists",
+      "status": "passed"
+    },
+    {
+      "name": "Published resource has a direct public page",
+      "status": "passed"
+    },
+    {
+      "name": "Email confirmation recovery screen",
+      "status": "passed"
+    }
+  ]
+}
